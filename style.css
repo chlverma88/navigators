@@ -4036,7 +4036,7 @@ body > .skiptranslate {
 
 /* Content Inside the Small Box */
 .content {
-	font-size: 16px;
+	font-size: 12px;
 	font-weight: bold;
 	opacity: 1;
 	transition: opacity 0.3s ease-in-out;
@@ -4051,12 +4051,16 @@ body > .skiptranslate {
 	width: 90%;
 	background: rgba(255, 255, 255, 0.9);
 	color: #333;
-	font-size: 14px;
+	font-size: 10px;
+	font-weight:bold;
 	padding: 10px;
 	border-radius: 5px;
 	text-align: center;
 	transition: bottom 0.4s ease-in-out;
 	display:none;
+}
+.extra-content a{
+	font-weight:bold;
 }
 
 /* Show Extra Content on Hover */
@@ -4091,3 +4095,42 @@ body > .skiptranslate {
 /*=========================
 	End Footer CSS
 ===========================*/
+/* Style for the toggle container */
+.toggle-container {
+    margin: 20px;
+    font-family: Arial, sans-serif;
+}
+
+/* Style for each toggle item */
+.toggle-item {
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    background-color: #fff;
+}
+
+/* Style for the toggle header */
+.toggle-header {
+    cursor: pointer;
+    color: #000;
+    font-size: 1.5rem;
+    padding: 15px;
+    background-color: #6E6E6E;
+    border: 1px solid #ddd;
+    margin: 0;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.toggle-header:hover {
+    background-color: #e1e1e1; /* Slight change when hovered */
+}
+
+/* Style for the content */
+.toggle-content {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-top: 1px solid #ddd;
+    display: none;
+    font-size: 1rem;
