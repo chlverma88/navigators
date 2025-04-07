@@ -1,0 +1,126 @@
+.logo {
+    width: 200px; /* Set the visible width */
+    height: 58px; /* Set the visible height */
+    overflow: hidden;
+    background-image: url('img\logo.png');
+    background-size: 225px 225px; /* Keep the original size */
+    background-position: -50px -50px; /* Adjust to show only a specific part */
+}
+.slider .single-slider h1{
+    background: rgba(0, 0, 0, 0.4); 
+    text-align:center;
+    color:#BBBF51;
+    padding:15px;
+}
+/* Hide the default Google Translate widget */
+#google_translate_element {
+     display: none !important;
+}
+/* Custom Language Button */
+.language-button {
+    color:black;
+    font-weight: bold;
+    padding: 10px 20px !important;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.btn{
+    background:#fff;
+    color:black;
+    font-weight: bold;
+}
+
+/* Hover Effect */
+.language-button:hover {
+    color: #fff;
+}
+.about_div{
+    background: #fff;
+	padding: 30px;
+	-webkit-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.10);
+	-moz-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.10);
+	box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.10);
+	border-radius: 8px;
+}
+
+.container-box {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.location {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 15px;
+    padding: 10px;
+    background: rgba(227, 242, 253, 0.8);
+    border-radius: 8px;
+    color: black;
+    text-align: center;
+}
+.form-select, .form-control {
+    height: 38px;
+}
+.logo {
+       width: 200px; /* Set the visible width */
+    height: 58px; /* Set the visible height */
+    overflow: hidden;
+    background-image: url('img\logo.png');
+    background-size: 225px 225px; /* Keep the original size */
+    background-position: -50px -50px; /* Adjust to show only a specific part */
+}
+.slider .single-slider h1{
+    background: rgba(0, 0, 0, 0.4); 
+    text-align:center;
+    color:#BBBF51;
+    padding:15px;
+}
+/* Hide the default Google Translate widget */
+#google_translate_element {
+    display: none !important;
+}
+/* Hide the Google Translate banner */
+body > .skiptranslate {
+display: none !important;
+}
+
+/* Prevent layout shifting */
+body {
+top: 0px !important;
+}
+.overlay_1 {
+    display: none; /* Hidden by default */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7); /* Dark overlay */
+    justify-content: center;
+    align-items: center;
+}
+.overlay-content_1 {
+    position: relative;
+    width: 80%;
+    max-width: 800px;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+.close_1 {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 30px;
+    cursor: pointer;
+}
+.main-menu a{
+    text-decoration:none;
+}
