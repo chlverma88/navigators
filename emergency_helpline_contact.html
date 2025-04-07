@@ -159,11 +159,12 @@
 			.toggle-content p{
 				color:#000;
 			}
-			
+			.main-menu a{
+				text-decoration:none;
+			}
 		</style>
     </head>
     <body>
-		
 		<!-- Header Area -->
 		<header class="header">
 			<!-- Header Inner -->
@@ -181,23 +182,24 @@
 								<div class="mobile-nav"></div>
 								<!-- End Mobile Nav -->
 							</div>
-							<div class="col-lg-7 col-md-9 col-12">
+							<div class="col-lg-7 col-md-9 col-12 col-xxl-6">
 								<!-- Main Menu -->
 								<div class="main-menu">
 									<nav class="navigation">
-										<ul class="nav menu">
+										<ul class="nav menu d-flex flex-nowrap">
 											<li class="active">
-												<a href="#" style="text-decoration:none">Home</a>
+												<a href="index.html">Home</a>
 											</li>
-											<li><a href="#who_we_are" style="text-decoration:none">Who we are? </a></li>
-											<li><a href="#" style="text-decoration:none">Locations <i class="icofont-rounded-down"></i></a>
+											<li><a href="who_we_are.html">About KITES</a></li>
+											<li><a href="#">Communities Data <i class="icofont-rounded-down"></i></a>
 												<ul class="dropdown">
-													<li><a href="location-govind-puri.html" style="text-decoration:none">Govind Puri</a></li>
-													<li><a href="location-sangam-vihar.html" style="text-decoration:none">Sangam Vihar</a></li>
-													<li><a href="location-tughlakabad.html" style="text-decoration:none">Tughlakabad</a></li>
+													<li><a href="location-govind-puri.html">Govind Puri</a></li>
+													<li><a href="location-sangam-vihar.html">Sangam Vihar</a></li>
+													<li><a href="location-tughlakabad.html">Tughlakabad</a></li>
 												</ul>
 											</li>
-											<li><a href="emergency_helpline_contact.html" style="text-decoration:none">Emergency Helpine Contact</a></li>
+											<li><a href="emergency_helpline_contact.html">Emergency Helpine Contact</a></li>
+											<li><a href="#">Reallocation Support</a></li>
 										</ul>
 									</nav>
 								</div>
@@ -205,7 +207,7 @@
 							</div>
 							<div class="col-lg-2 col-12">
 								<div class="get-quote">
-									<button class="language-button btn" id="languageToggle" onclick="toggleLanguage()">हिंदी</button>
+									<button class="language-button btn" id="languageToggle" style="margin-top:13px;" onclick="toggleLanguage()">हिंदी</button>
 
 								</div>
 							</div>
@@ -225,7 +227,7 @@
                 <div class="container-box">
                     <div class="toggle-container">
 						<div class="toggle-item">
-							<h2 class="toggle-header"><i class="fa fa-plus-circle"></i> Women Helpline</h2>
+							<h2 class="toggle-header"  id="women_helpline"><i class="fa fa-plus-circle"></i> Women Helpline (181, 1091)</h2>
 							<div class="toggle-content">
 								<p>The Women Helpline, accessible through the toll-free number 181, provides 24/7 emergency and non-emergency support to women facing violence or distress, offering referrals to relevant authorities and information about government schemes.</p>
 								<h4><strong>How to Access the Helpline:</strong></h4>
@@ -234,23 +236,181 @@
 									<li><i class="fa fa-caret-right"></i><strong> Seek Assistance:</strong> Explain your situation to the helpline operator.</li>
 									<li><i class="fa fa-caret-right"></i><strong> Receive Support:</strong> The operator will provide assistance and/or refer you to the appropriate resources. </li>
 								</ul>
-								
 							</div>
 						</div>
 						<div class="toggle-item">
-							<h2 class="toggle-header"><i class="fa fa-plus-circle"></i> Child Helpline</h2>
+							<h2 class="toggle-header" id="child_helpline"><i class="fa fa-plus-circle"></i> Child Helpline</h2>
 							<div class="toggle-content">
 								<p>CHILDLINE 1098 is a phone number that spells hope for millions of children across India. It is a 24-hour a day, 365 days a year, free, emergency phone service for children in need of aid and assistance. We not only respond to the emergency needs of children but also link them to relevant services for their long-term care and rehabilitation. We have, till date, connected to three million children across the nation offering them care and protection.</p>
 								<p><strong>CHILDLINE India Foundation (CIF)</strong> is the nodal agency of the Union Ministry of Women and Child Development for setting up, managing and monitoring the CHILDLINE 1098 service all over the country. <strong>CIF</strong> is the sole agency/body responsible for establishing the CHILDLINE service across the country, monitoring of service delivery and finance, training, research and documentation, creating awareness, advocacy as well as resource generation for the service.</p>
 							</div>
 						</div>
 						<div class="toggle-item">
-							<h2 class="toggle-header"><i class="fa fa-plus-circle"></i> Heading 3</h2>
+							<h2 class="toggle-header"  id="delhi_police"><i class="fa fa-plus-circle"></i> Delhi Police</h2>
 							<div class="toggle-content">
-								<p>This is the content for Heading 1.</p>
+								<p>Delhi Police, the law enforcement agency for the National Capital Territory of Delhi, is organized into zones, ranges, districts, and police stations, with specialized units like the Crime Branch and Special Cell.</p>
+								<h4><strong>How to Contact Delhi Police:</strong></h4>
+								<ul class="list">
+									<li><i class="fa fa-caret-right"></i><strong> Control Room:</strong> Dial 100</li>
+									<li><i class="fa fa-caret-right"></i><strong> Email:</strong> delpol.service@delhipolice.gov.in</li>
+									<li><i class="fa fa-caret-right"></i><strong> Official Website:</strong> delhipolice.gov.in</li>
+									<li><i class="fa fa-caret-right"></i><strong> Telephone Directory:</strong> delhipolice.gov.in/telephonedirectory</li>
+									<li><i class="fa fa-caret-right"></i><strong> Centralized Numbers:</strong> delhipolice.gov.in/page/police</li>
+									<li><i class="fa fa-caret-right"></i><strong> Missing Persons Squad:</strong> +91-11-23276300, +91-11-23231048</li>
+									<li><i class="fa fa-caret-right"></i><strong> Vigilance:</strong> +91-11-03319922</li>
+									<li><i class="fa fa-caret-right"></i><strong> Anti Corruption Bureau:</strong> +91-11-23962201 Extn 6575, +91-11-23890019</li>
+									<li><i class="fa fa-caret-right"></i><strong> Drugs & Narcotic Cell:</strong> +91-11-23237799</li>
+									<li><i class="fa fa-caret-right"></i><strong> Special Cell (North-Eastern States):</strong> 1093</li>
+									<li><i class="fa fa-caret-right"></i><strong> Missing Persons:</strong> 1094, 27892844</li>
+									<li><i class="fa fa-caret-right"></i><strong> Traffic: </strong> 1095, 25844444</li>
+								</ul>
 							</div>
 						</div>
-						
+						<div class="toggle-item">
+							<h2 class="toggle-header"  id="emergency_helpline"><i class="fa fa-plus-circle"></i> CENTRALIZED EMERGENCY SERVICES <span style="float:right">(Dial: 112)</span></h2>
+							<div class="toggle-content">
+								<p>A centralized emergency services system, like the <strong>Emergency Response Support System (ERSS)</strong> in India, aims to provide a unified and efficient response to emergencies by consolidating emergency calls and dispatching resources through a single number, like 112. </p>
+								<h4><strong>Process Flow:</strong></h4>
+								<ul class="list">
+									<li><i class="fa fa-caret-right"></i> A citizen dials 112</li>
+									<li><i class="fa fa-caret-right"></i> The call is routed to the relevant PSAP</li>
+									<li><i class="fa fa-caret-right"></i> The PSAP agent takes the call and gathers information</li>
+									<li><i class="fa fa-caret-right"></i> The system displays pre-populated fields like location and caller details</li>
+									<li><i class="fa fa-caret-right"></i> The dispatcher dispatches the appropriate emergency vehicles</li>
+									<li><i class="fa fa-caret-right"></i> The emergency vehicles arrive at the scene</li>
+									<li><i class="fa fa-caret-right"></i> The call is closed after the incident is resolved</li>
+								</ul>
+							</div>
+						</div>
+						<div class="toggle-item">
+							<h2 class="toggle-header"  id="fire_helpline"><i class="fa fa-plus-circle"></i> Fire Helpline</h2>
+							<div class="toggle-content">
+								<p>In Model Town, Delhi, for <strong>Fire Emergencies, dial 101</strong> to reach the Fire & Rescue Services. You can also reach them through the Police Control Room by dialing 100. </p>
+								
+							</div>
+						</div>
+						<div class="toggle-item">
+							<h2 class="toggle-header"  id="medical_helpline"><i class="fa fa-plus-circle"></i> Medical Helpline</h2>
+							<div class="toggle-content">
+								<p>In Model Town, Delhi, for ambulance services, dial 102 or 108 to summon government ambulances for urgent medical transportation.</p> 
+								<h4><strong>Here's a more detailed breakdown:</strong></h4>
+								<ul class="list">
+									<li><i class="fa fa-caret-right"></i><strong> 102:</strong> This is a dedicated helpline for immediate medical transportation.</li>
+									<li><i class="fa fa-caret-right"></i><strong> 108:</strong> This is another helpline for urgent medical assistance, ensuring rapid ambulance dispatch.</li>
+								</ul>
+							</div>
+						</div>
+						<div class="toggle-item">
+							<h2 class="toggle-header"  id="disaster_management"><i class="fa fa-plus-circle"></i> Disaster Management</h2>
+							<div class="toggle-content">
+								<p>In the context of disaster management, "1077" likely refers to a toll-free number, specifically in India, used for reporting natural disasters like floods, to the collectorate. </p>
+								<h4><strong>How to contact Disaster Management:</strong></h4>
+								<ul class="list">
+									<li><i class="fa fa-caret-right"></i><strong> Address:</strong> 12/1, Jam Nagar House, Shahjahan Road, New Delhi - 110011</li>
+									<li><i class="fa fa-caret-right"></i><strong> Phone No:</strong> 23385743</li>
+									<li><i class="fa fa-caret-right"></i><strong> Email:</strong> newdelhiddma51@gmail.com</li>
+									<li><i class="fa fa-caret-right"></i><strong> Website: </strong>http://ddma.delhigovt.nic.in</li>
+									<li><i class="fa fa-caret-right"></i><strong> Call: </strong>1077 Disaster Helpline Number (24X7) </li>
+								</ul>
+							</div>
+						</div>
+						<div class="toggle-item">
+							<h2 class="toggle-header"  id="cyber_helpline"><i class="fa fa-plus-circle"></i> Cyber Crime Cell</h2>
+							<div class="toggle-content">
+								<p>The Delhi Police Cyber Crime Unit, part of the <strong>Intelligence Fusion & Strategic Operations (IFSO)</strong> under the Special Cell, handles complex cybercrime cases, including those involving women and children, and is equipped with a state-of-the-art cyber lab. </p>
+								<h4><strong>How to Report Cybercrime:</strong></h4>
+								<ul class="list">
+									<li><i class="fa fa-caret-right"></i><strong> National Cyber Crime Reporting Portal:</strong> You can report cybercrimes online through the Government of India's National Cyber Crime Reporting Portal. </li>
+									<li><i class="fa fa-caret-right"></i><strong> Report and Track:</strong> The portal allows you to lodge complaints online, upload evidence, and track the progress of your case. </li>
+									<li><i class="fa fa-caret-right"></i><strong> Anonymity:</strong> You can report complaints anonymously. </li>
+									<li><i class="fa fa-caret-right"></i><strong> Cyber Safety Tips: </strong>The portal also provides resources, including cyber safety tips and guidelines. </li>
+									<li><i class="fa fa-caret-right"></i><strong> Helpline: </strong>The National Cyber Crime Helpline is 1930.</li>
+									<li><i class="fa fa-caret-right"></i><strong> Contact Local Police:</strong>For emergencies or other crimes, contact the local police. </li>
+								</ul>
+							</div>
+						</div>
+						<div class="toggle-item">
+							<h2 class="toggle-header" style="stalking_helpline"><i class="fa fa-plus-circle"></i> Obscence Calls/Stalking</h2>
+							<div class="toggle-content">
+								<p>If you are experiencing obscene calls or receiving stalking content, you can report it to the Delhi Police Anti-Obscene Call Helpline at 1096</p>
+								<h4><strong>How to contact Delhi Police Anti-Obscene:</strong></h4>
+								<ul class="list">
+									<li><i class="fa fa-caret-right"></i><strong> Obscene Calls:</strong> These are unsolicited telephone calls where a person uses profane and/or sexual language to interact with someone, potentially known or a stranger.</li>
+									<li><i class="fa fa-caret-right"></i><strong> Stalking Content:</strong> This refers to unwanted and persistent communication or behavior that makes a person feel threatened or unsafe.</li>
+									<li><i class="fa fa-caret-right"></i><strong> Reporting:</strong> You can report obscene calls and stalking content to the Delhi Police Anti-Obscene Call Helpline at 1096 or 27894455.</li>
+									<li><i class="fa fa-caret-right"></i><strong> Email: </strong>acp-sit-dl@nic.in</li>
+									<li><i class="fa fa-caret-right"></i><strong> Helpline: </strong>The National Cyber Crime Helpline is 1930</li>
+									<li><i class="fa fa-caret-right"></i><strong> SMS/MMS:</strong>Forward objectionable SMS/MMS to 9911135446</li>
+								</ul>
+							</div>
+						</div>
+						<div class="toggle-item">
+							<h2 class="toggle-header" style="NCW_helpline"><i class="fa fa-plus-circle"></i> National Commission For Women</h2>
+							<div class="toggle-content">
+								<p><strong>The National Commission for Women (NCW)</strong> in India, established in 1992, works to review legal and constitutional safeguards for women, recommend legislative measures, facilitate grievance redressal, and advise the government on policies affecting women. </p>
+								<h4><strong>How to contact NCW:</strong></h4>
+								<ul class="list">
+									<li><i class="fa fa-caret-right"></i> For any issue related to Violence against Women, Please Call on 24x7 Helpline : <strong>7827-170-170</strong></li>
+									<li><i class="fa fa-caret-right"></i><strong> Complaint & Investigation Cell:</strong> complaintcell-ncw@nic.in </li>
+									<li><i class="fa fa-caret-right"></i><strong> Policy Monitoring and Research Cell</strong> sro-ncw@nic.in </li>
+									<li><i class="fa fa-caret-right"></i><strong> Legal Cell: </strong> lo-ncw@nic.in </li>
+									<li><i class="fa fa-caret-right"></i><strong> NRI Cell: </strong> nricell-ncw@nic.in</li>
+									<li><i class="fa fa-caret-right"></i><strong> North East Cell:</strong> northeastcell-ncw@nic.in </li>
+								</ul>
+							</div>
+						</div>
+						<div class="toggle-item">
+							<h2 class="toggle-header" id="drug_helpline"><i class="fa fa-plus-circle"></i> Drug De-Addiction Centre</h2>
+							<div class="toggle-content">
+								<p>Drug Addiction is emerging to be a serious concern in the country, especially in the younger generation leading to dangerous consequences not just for the person using drugs, but on the family and society at large. Drug abuse has resulted in an increase in crime rate and had an overall detrimental impact on society. Prevention has proven to be the most effective strategy to counter this problem.</p>
+								<h4><strong>How to Contact:</strong></h4>
+								<ul class="list">
+									<li><i class="fa fa-caret-right"></i> A National Toll Free drug de-addiction helpline Number <strong>1800-11-0031</strong></li>
+								</ul>
+							</div>
+						</div>
+						<div class="toggle-item">
+							<h2 class="toggle-header" id="senior_helpline"><i class="fa fa-plus-circle"></i> Senior Citizen Helpline</h2>
+							<div class="toggle-content">
+								<p><strong>Senior Citizen Helpline Number 14567</strong> is a national helpline for senior citizens in India, providinginformation, guidance, emotionals upoort, and field intervention for abuse and rescue, with services avaiable in multiple languages to address the needs of senior citizens by offering a single point of contact for various concerns.</p>
+								<h4><strong>How to connect us:</strong></h4>
+								<ul class="list">
+									<li><i class="fa fa-caret-right"></i><strong> Toll-free number:</strong> 14567</li>
+									<li><i class="fa fa-caret-right"></i><strong> Email:</strong> elderline-ind@gov.in</li>
+									<li><i class="fa fa-caret-right"></i><strong> Website:</strong> https://www.nisd.gov.in/</li>
+									<li><i class="fa fa-caret-right"></i><strong> Address: </strong> National Helpline for Senior Citizens (NHSC), National Institute of Social Defence (NISD), Ministry of Social Justice and Empowerment, Plot No. G-2, Sector-10, Dwarka, New Delhi-110075.</li>
+									<li><i class="fa fa-caret-right"></i><strong> Working Hours: </strong>9:00 AM - 05:00 PM</li>
+									<li><i class="fa fa-caret-right"></i><strong> Delhi Police Senior Citizen Cell:</strong>Delhi Police also has a Senior Citizen Cell and provides assistance to senior citizens, including a helpline number 1291 and a senior citizen app with an SOS button for police help. </li>
+									<li><i class="fa fa-caret-right"></i><strong> Other Helplines:</strong> There are other helplines available for senior citizens in Delhi, such as the one run by HelpAge India (1800-180-1253).</li>
+								</ul>
+							</div>
+						</div>
+						<div class="toggle-item">
+							<h2 class="toggle-header" id="disability_helpline"><i class="fa fa-plus-circle"></i> Disability Helpline</h2>
+							<div class="toggle-content">
+								<p>The <strong>National Disability Information Helpline Service (NDIHS)</strong>, an initiative of the <strong>Department of Empowerment of Persons with Disabilities (DEPwD)</strong>, provides a telephonic information service on disabilities, accessible by calling 14456</p>
+								<h4><strong>How it works:</strong></h4>
+								<ul class="list">
+									<li><i class="fa fa-caret-right"></i><strong> Purpose:</strong> To provide information, guidance, and counseling related to disability. </li>
+									<li><i class="fa fa-caret-right"></i><strong> Accessibility:</strong> Accessible from any part of India by calling 14456. </li>
+									<li><i class="fa fa-caret-right"></i><strong> Language:</strong> Information is available in English and Hindi.</li>
+									<li><i class="fa fa-caret-right"></i><strong> Disabilities Covered:</strong> The helpline covers 21 disabilities as per the RPwD Act 2016. </li>
+									<li><i class="fa fa-caret-right"></i><strong> Initiator:</strong> An initiative of the Department of Empowerment of Persons with Disabilities (DEPwD). </li>
+								</ul>
+							</div>
+						</div>
+						<div class="toggle-item">
+							<h2 class="toggle-header" style="batra_helpline"><i class="fa fa-plus-circle"></i> Batra Hospital (Nearest Hospital)</h2>
+							<div class="toggle-content">
+								<p>Batra Hospital & Medical Research Centre, established in 1987, is a multi-specialty private hospital in Delhi, offering tertiary-level care in 42 specialties, with a focus on critical areas like oncology, cardiology, and neurosurgery.</p>
+								<h4><strong>How to connect us:</strong></h4>
+								<ul class="list">
+									<li><i class="fa fa-caret-right"></i><strong> Address:</strong> 1, Tughlakabad Institutional Area, M.B. Road, New Delhi, 110062</li>
+									<li><i class="fa fa-caret-right"></i><strong> Email:</strong> appointmentbhmrc@yahoo.com</li>
+									<li><i class="fa fa-caret-right"></i><strong> Contact:</strong> 85957 78376, 011-4333 3737</li>
+								</ul>
+							</div>
+						</div>
 					</div>
 				</div>
 				
@@ -287,7 +447,7 @@
 		<div id="mapOverlay" class="overlay_1">
 			<div class="overlay-content_1">
 				<span class="close_1" onclick="closeMapOverlay()">&times;</span>
-				<iframe id="mapFrame" width="100%" height="400" style="border:0" loading="lazy"></iframe>
+				<iframe id="mapFrame" width="100%" height="400" style="border:0px;" loading="lazy"></iframe>
 			</div>
 		</div>
 		
