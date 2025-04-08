@@ -3288,7 +3288,7 @@ body > .skiptranslate {
 	display: inline-block;
 }
 .error-page .error-inner h1 {
-	font-size: 140px;
+	font-size: 100px;
 	text-shadow: 3px 5px 2px #3333;
 	color: #a52b28;
 	font-weight: 700;
